@@ -1,6 +1,6 @@
 package auth
 
-import "github.com/medivhzhan/weapp/v3/request"
+import "github.com/ericnts/weapp/v3/request"
 
 const apiCheckEncryptedData = "/wxa/business/checkencryptedmsg"
 

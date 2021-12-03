@@ -1,6 +1,6 @@
 package auth
 
-import "github.com/medivhzhan/weapp/v3/request"
+import "github.com/ericnts/weapp/v3/request"
 
 const apiCode2Session = "/sns/jscode2session"
 

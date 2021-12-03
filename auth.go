@@ -1,7 +1,7 @@
 package weapp
 
 import (
-	"github.com/medivhzhan/weapp/v3/request"
+	"github.com/ericnts/weapp/v3/request"
 )
 
 const (

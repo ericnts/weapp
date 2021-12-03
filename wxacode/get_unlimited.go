@@ -3,7 +3,7 @@ package wxacode
 import (
 	"net/http"
 
-	"github.com/medivhzhan/weapp/v3/request"
+	"github.com/ericnts/weapp/v3/request"
 )
 
 const apiGetUnlimited = "/wxa/getwxacodeunlimit"

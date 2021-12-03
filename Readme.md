@@ -4,7 +4,7 @@
 
 - [v1 版本入口](https://github.com/medivhzhan/weapp/tree/v1)
 - [v2 版本入口](https://github.com/medivhzhan/weapp/tree/v2)
-- [查看完整文档](https://pkg.go.dev/github.com/medivhzhan/weapp/v3)
+- [查看完整文档](https://pkg.go.dev/github.com/ericnts/weapp/v3)
 - `v3` 版本为测试版本,请斟酌使用;
 - SDK 暂不包含支付相关内容 已有很多优秀的支付相关模块;
 - 微信小程序的功能和接口一直在持续更新迭代,如果遇到没有的接口或者不符合当前实际情况的接口请提交 [issue](https://github.com/royalrick/weapp/issues/new) 或者发起 pull request;
@@ -13,7 +13,7 @@
 
 ```sh
 
-go get -u github.com/medivhzhan/weapp/v3
+go get -u github.com/ericnts/weapp/v3
 
 ```
 
@@ -25,7 +25,7 @@ go get -u github.com/medivhzhan/weapp/v3
 package main
 
 import (
-	"github.com/medivhzhan/weapp/v3"
+	"github.com/ericnts/weapp/v3"
 )
 
 func main() {
@@ -43,7 +43,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/medivhzhan/weapp/v3"
+	"github.com/ericnts/weapp/v3"
 )
 
 func main() {
@@ -73,8 +73,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/medivhzhan/weapp/v3"
-	"github.com/medivhzhan/weapp/v3/logger"
+	"github.com/ericnts/weapp/v3"
+	"github.com/ericnts/weapp/v3/logger"
 )
 
 func main() {
@@ -100,7 +100,7 @@ package main
 import (
 	"time"
 
-	"github.com/medivhzhan/weapp/v3"
+	"github.com/ericnts/weapp/v3"
 )
 
 type MyCache struct{}
@@ -131,7 +131,7 @@ func main() {
 package main
 
 import (
-	"github.com/medivhzhan/weapp/v3"
+	"github.com/ericnts/weapp/v3"
 )
 
 func main() {
@@ -165,8 +165,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/medivhzhan/weapp/v3"
-	"github.com/medivhzhan/weapp/v3/auth"
+	"github.com/ericnts/weapp/v3"
+	"github.com/ericnts/weapp/v3/auth"
 )
 
 func main() {
@@ -221,8 +221,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/medivhzhan/weapp/v3"
-	"github.com/medivhzhan/weapp/v3/server"
+	"github.com/ericnts/weapp/v3"
+	"github.com/ericnts/weapp/v3/server"
 )
 
 func main() {
